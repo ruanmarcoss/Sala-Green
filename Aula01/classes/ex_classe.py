@@ -31,11 +31,11 @@ class Endereco:
 
 
 class Pessoa:
-    def __init__(self, nome, sobrenome, idade):
+    def __init__(self, nome, sobrenome, idade, rua, logradouro, cep, numero):
         self.__nome = nome
         self.__sobrenome = sobrenome
         self.__idade = idade
-        self.endereco = Endereco()
+        self.endereco = Endereco(rua,logradouro,cep,numero)
 
     def set_nome(self,__nome):
         self.__nome = __nome
