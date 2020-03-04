@@ -40,6 +40,9 @@ class Pessoa:
     def set_nome(self,__nome):
         self.__nome = __nome
 
+    def set_endereco(self,endereco):
+        self.endereco = endereco
+
     def set_sobrenome(self,__sobrenome):
         self.__sobrenome = __sobrenome
 
@@ -54,3 +57,7 @@ class Pessoa:
 
     def get_idade(self):
         return self.__idade
+
+obj = Pessoa('','','','','','','')
+obj.set_nome('Ruan')
+print(obj.get_nome())
