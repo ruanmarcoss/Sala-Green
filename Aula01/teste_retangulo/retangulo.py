@@ -1,3 +1,4 @@
+
 class Retangulo:
     def __init__(self,ladoA, ladoB):
         self.__ladoA = ladoA
