@@ -5,7 +5,7 @@ class Pessoa:
     def __init__(self, nome, sobrenome, idade):
         self.__nome = ''
         self.__sobrenome = ''
-        self.__idade = ''
+        self.__idade = 0
         if self.verifica_nome(nome):
             self.__nome = nome
         if self.verifica_sobrenome(sobrenome):
